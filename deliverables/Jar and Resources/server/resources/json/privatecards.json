@@ -1,0 +1,26 @@
+[
+        {   "name": "Shades of blue",
+			"color" : "blue",
+			"description": "Sum of values on blue dice"
+        },
+
+		{   "name": "Shades of purple",
+			"color" : "purple",
+			"description": "Sum of values on purple dice"
+        },
+        {
+            "name": "Shades of red",
+            "color": "red",
+            "description": "Sum of value on red dice"
+        },
+        {
+            "name": "Shades of yellow",
+            "color": "yellow",
+            "description": "Sum of values on yellow dice"
+        },
+        {
+          "name": "Shades of green",
+          "color": "green",
+          "description": "Sum of values on green dice"
+        }
+]

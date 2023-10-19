@@ -1,0 +1,219 @@
+[
+    {
+        "name":"Aurora Sagradis",
+        "difficulty" :"4",
+        "grid":[
+          "red","empty","blue","empty","yellow",
+          "4","purple","3","green","2",
+          "empty","1","empty","5","empty",
+          "empty","empty","6","empty","empty"]
+    },
+    {
+        "name":"Aurorae Magnificus",
+        "difficulty" :"5",
+        "grid":[
+          "5","green","blue","purple","2",
+          "purple","empty","empty","empty","yellow",
+          "yellow","empty","6","empty","purple",
+          "1","empty","empty","green","4"]
+    },
+    {
+        "name":"Battlo",
+        "difficulty" :"5",
+        "grid":[
+          "empty","empty","6","empty","empty",
+          "empty","5","blue","4","empty",
+          "3","green","yellow","purple","2",
+          "1","4","red","5","3"]
+    },
+    {
+        "name":"Bellesguard",
+        "difficulty" :"3",
+        "grid":[
+          "blue","6","empty","empty","yellow",
+          "empty","3","blue","empty","empty",
+          "empty","5","6","2","empty",
+          "empty","4","empty","1","green"]
+    },
+    {
+        "name":"Chromatic Splendor",
+        "difficulty" :"4",
+        "grid":[
+          "empty","empty","green","empty","empty",
+          "2","yellow","5","blue","1",
+          "empty","red","3","purple","empty",
+          "1","empty","6","empty","4"]
+    },
+    {
+        "name":"Comitas",
+        "difficulty" :"5",
+        "grid":[
+          "yellow","empty","2","empty","6",
+          "empty","4","empty","5","yellow",
+          "empty","empty","empty","yellow","5",
+          "1","2","yellow","3","empty"]
+    },
+    {
+        "name":"Firelight",
+        "difficulty" :"5",
+        "grid":[
+          "3","4","1","5","empty",
+          "empty","6","2","empty","yellow",
+          "empty","empty","empty","yellow","red",
+          "5","empty","yellow","red","6"]
+    },
+    {
+        "name":"Firmitas",
+        "difficulty" :"5",
+        "grid":[
+          "purple","6","empty","empty","3",
+          "5","purple","3","empty","empty",
+          "empty","2","purple","1","empty",
+          "empty","1","5","purple","4"]
+    },
+    {
+        "name":"Fractal Drops",
+        "difficulty" :"3",
+        "grid":[
+          "empty","4","empty","yellow","6",
+          "red","empty","2","empty","empty",
+          "empty","empty","red","purple","1",
+          "blue","yellow","empty","empty","empty"]
+    },
+    {
+        "name":"Fulgor del Cielo",
+        "difficulty" :"5",
+        "grid":[
+          "empty","blue","red","empty","empty",
+          "empty","4","5","empty","blue",
+          "blue","2","empty","red","5",
+          "6","red","3","1","empty"]
+    },
+    {
+        "name":"Gravitas",
+        "difficulty" :"5",
+        "grid":[
+          "1","empty","3","blue","empty",
+          "empty","2","blue","empty","empty",
+          "6","blue","empty","4","empty",
+          "blue","5","2","empty","1"]
+    },
+    {
+        "name":"Industria",
+        "difficulty" :"5",
+        "grid":[
+          "1","red","3","empty","6",
+          "5","4","red","2","empty",
+          "empty","empty","5","red","1",
+          "empty","empty","empty","3","red"]
+    },
+    {
+        "name":"Kaleidoscopic Dream",
+        "difficulty" :"4",
+        "grid":[
+          "yellow","blue","empty","empty","1",
+          "green","empty","5","empty","4",
+          "3","empty","red","empty","green",
+          "2","empty","empty","blue","yellow"]
+    },
+    {
+        "name":"Lux Astram",
+        "difficulty" :"5",
+        "grid":[
+          "empty","1","green","purple","4",
+          "6","purple","2","5","green",
+          "1","green","5","3","purple",
+          "empty","empty","empty","empty","empty"]
+    },
+    {
+        "name":"Luz Celestial",
+        "difficulty" :"3",
+        "grid":[
+          "empty","empty","red","5","empty",
+          "purple","4","empty","green","3",
+          "6","empty","empty","blue","empty",
+          "empty","yellow","2","empty","empty"]
+    },
+    {
+        "name":"Lux Mundi",
+        "difficulty" :"6",
+        "grid":[
+          "empty","empty","1","empty","empty",
+          "1","green","3","blue","2",
+          "blue","5","4","6","green",
+          "empty","blue","5","green","empty"]
+    },
+    {
+        "name":"Ripples of Light",
+        "difficulty" :"5",
+        "grid":[
+          "empty","empty","empty","red","5",
+          "empty","empty","purple","4","blue",
+          "empty","blue","3","yellow","6",
+          "yellow","2","green","1","red"]
+    },
+    {
+        "name":"Shadow Thief",
+        "difficulty" :"5",
+        "grid":[
+          "6","purple","empty","empty","5",
+          "5","empty","purple","empty","empty",
+          "red","6","empty","purple","empty",
+          "yellow","red","5","4","3"]
+    },
+    {
+        "name":"Sun Catcher",
+        "difficulty" :"3",
+        "grid":[
+          "empty","blue","2","empty","yellow",
+          "empty","4","empty","red","empty",
+          "empty","empty","5","yellow","empty",
+          "green","3","empty","empty","purple"]
+    },
+    {
+        "name":"Sun's Glory",
+        "difficulty" :"6",
+        "grid":[
+          "1","purple","yellow","empty","4",
+          "purple","yellow","empty","empty","6",
+          "yellow","empty","empty","5","3",
+          "empty","5","4","2","1"]
+    },
+    {
+        "name":"Symphony of Light",
+        "difficulty" :"6",
+        "grid":[
+          "2","empty","5","empty","1",
+          "yellow","6","purple","2","red",
+          "empty","blue","4","green","empty",
+          "empty","3","empty","5","empty"]
+    },
+    {
+        "name":"Via Lux",
+        "difficulty" :"4",
+        "grid":[
+          "yellow","empty","6","empty","empty",
+          "empty","1","5","empty","2",
+          "3","yellow","red","purple","empty",
+          "empty","empty","4","3","red"]
+    },
+    {
+        "name":"Virtus",
+        "difficulty" :"5",
+        "grid":[
+          "4","empty","2","5","green",
+          "empty","empty","6","green","2",
+          "empty","3","green","4","empty",
+          "5","green","1","empty","empty"]
+    },
+    {
+        "name":"Water of Life",
+        "difficulty" :"6",
+        "grid":[
+          "6","blue","empty","empty","1",
+          "empty","5","blue","empty","empty",
+          "4","red","2","blue","empty",
+          "green","6","yellow","3","purple"]
+    }
+    
+]

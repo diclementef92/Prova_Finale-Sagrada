@@ -1,0 +1,180 @@
+ [
+		{
+			"name": "Grozing Pliers",
+			"number": "1",
+			"color": "purple",
+			"description": "After drafting, increase or decrease the value of the drafted die by 1.\nYou may not change 1 to 6,or 6 to 1."
+			"actions": [
+			    {
+			       "action":"changeDiceValue",
+            	   "actiontype": "increaseDiceValue"
+                },
+				{
+					"action":"placeDice",
+					"actiontype": "placeWithAllRestrictions"
+				}
+            			]
+		},
+		{
+			"name": "Eglomise Brush",
+			"number": "2",
+			"color": "blue",
+			"description": "Move any one die in your window ignoring color restrictions.\nYou must obey all other placement restrictions.",
+            "actions": [
+			    {
+			       "action":"actionMoveDice",
+            	   "actiontype": "moveIgnoreColor"
+                }
+            			]
+        },
+		{
+			"name": "Copper Foil Burnisher",
+			"number": "3",
+			"color": "red",
+			"description": "Move any one die in your window ignoring value restrictions.\nYou must obey all other placement restrictions.",
+            "actions": [
+			    {
+			       "action":"actionMoveDice",
+            	   "actiontype": "moveIgnoreValue"
+                }
+            			]
+        },
+		{
+			"name": "Lathekin",
+			"number": "4",
+			"color": "yellow",
+			"description": "Move exactly two dice, obeying all placement restrictions.",
+            "actions": [
+			    {
+			       "action":"actionMoveDice",
+            	   "actiontype": "moveWithAllRestrictions"
+                },
+                {
+                    "action":"actionMoveDice",
+                    "actiontype": "moveWithAllRestrictions"
+                }
+            			]
+        },
+		{
+			"name": "Lens Cutter",
+			"number": "5",
+			"color": "green",
+			"description": "After drafting, swap the drafted die with a die from the Round Track.",
+            "actions": [
+			    {
+			       "action":"swapDiceAction",
+            	   "actiontype": "swapDiceWithRoundTrack"
+                },
+              {
+                "action":"placeDice",
+                "actiontype": "placeWithAllRestrictions"
+              }
+            			]
+        },
+		{
+			"name": "Flux Brush",
+			"number": "6",
+			"color": "purple",
+			"description": "After drafting, re-roll the drafted die.\nIf it cannot be placed, return it in the Draft Pool.",
+            "actions": [
+			    {
+			       "action":"changeDiceValue",
+            	   "actiontype": "reRollDice"
+                },
+              {
+                "action":"placeDice",
+                "actiontype": "placeWithAllRestrictions"
+              }
+            			]
+
+        },
+		{
+			"name": "Glazing Hammer",
+			"number": "7",
+			"color": "blue",
+			"description": "Re-roll all dice in the Draft Pool.\nThis may only be used on your second turn before drafting.",
+            "actions": [
+			    {
+			       "action":"changeDiceValue",
+            	   "actiontype": "reRollAllDice"
+                }
+            			]
+        },
+		{
+			"name": "Running Pliers",
+			"number": "8",
+			"color": "red",
+			"description": "After your first turn, immediately draft a die.\nSkip your next turn this round.",
+            "actions": [
+				{
+					"action":"skipTurn",
+					"actiontype": "skipNextTurn"
+				}
+            			]
+        },
+		{
+			"name": "Cork-backed Straightedge",
+			"number": "9",
+			"color": "yellow",
+			"description": "After drafting, place the die in a spot that is not adjacent to another die.\nYou must obey all other placement restrictions.",
+            "actions": [
+			    {
+			       "action":"placeDice",
+            	   "actiontype": "placeIgnoreAdjacent"
+                }
+            			]
+        },
+		{
+			"name": "Grinding Stone",
+			"number": "10",
+			"color": "green",
+			"description": "After drafting, flip the die to its opposite side.\nNote: The sum of the numbers on each pair of opposing faces of the die is always 7.",
+            "actions": [
+			    {
+			       "action":"changeDiceValue",
+            	   "actiontype": "flipDice"
+                },
+              {
+                "action":"placeDice",
+                "actiontype": "placeWithAllRestrictions"
+              }
+            			]
+        },
+		{
+			"name": "Flux Remover",
+			"number": "11",
+			"color": "purple",
+			"description": "After drafting, return the die to the Dice Bag and pull 1 die from the bag.\nChoose a value and place the new dice, obeying all placement restrictions, or return it to the Draft Pool.",
+            "actions": [
+              {
+                "action":"swapDiceAction",
+                "actiontype": "swapDiceWithDiceBag"
+              },
+			    {
+			       "action":"changeDiceValue",
+            	   "actiontype": "selectDiceValue"
+                },
+              {
+                "action":"placeDice",
+                "actiontype": "placeWithAllRestrictions"
+              }
+            			]
+        },
+		{
+			"name": "Tap Wheel",
+			"number": "12",
+			"color": "blue",
+			"description": "Move up to two dice of the same color that match the color of a die on the Round Track.\nYou must obey all placement restrictions.",
+            "actions": [
+			    {
+			       "action":"actionMoveDice",
+            	   "actiontype": "moveMatchingColorRoundTrackDice"
+                },
+				{
+					"action":"actionMoveDice",
+					"actiontype": "moveMatchingColorRoundTrackDice"
+				}
+			]
+        }
+
+]
